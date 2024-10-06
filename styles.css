@@ -7,6 +7,33 @@ body {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    #main-container {
+        flex-direction: column;
+    }
+
+    #nav-container {
+        width: 100%;
+        padding-left: 20px; /* Adjust padding for better alignment */
+    }
+
+    #content-container {
+        padding-top: 10px;
+    }
+
+    .main-section {
+        margin-bottom: 20px;
+    }
+
+    code {
+        font-size: 0.9em; /* Reduce code block font size on smaller screens */
+    }
+
+    ul {
+        margin-left: 10px;
+    }
+}
+
 
 #main-container {
     display: flex;
@@ -20,6 +47,7 @@ body {
     background-color: #2d2d2d;  
     width: 250px;
     padding: 20px;
+    padding-left: 0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 }
 
