@@ -14,7 +14,7 @@ body {
 
     #nav-container {
         width: 100%;
-        padding-left: 20px; /* Adjust padding for better alignment */
+        padding-left: 20px; 
     }
 
     #content-container {
@@ -26,7 +26,7 @@ body {
     }
 
     code {
-        font-size: 0.9em; /* Reduce code block font size on smaller screens */
+        font-size: 0.9em; 
     }
 
     ul {
