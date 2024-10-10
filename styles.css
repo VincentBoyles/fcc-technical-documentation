@@ -69,8 +69,10 @@ body {
 
 .main-section header {
     font-size: 1.8em;
-    color: #f0f0f0; 
+    color: #ffffff; /* Sets the text color to white */
     margin-bottom: 10px;
+    border-bottom: 2px solid #3a3a3a; /* Optional: Adds a bottom border for a subtle separation */
+    padding-bottom: 10px; /* Padding for the bottom of the header */
 }
 
 
